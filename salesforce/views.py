@@ -71,4 +71,7 @@ def mavlon_page(request):
 
 def login_page(request):
     return render(request, 'templates/login.html')
+
+def homepage(request):
+    return HttpResponse('HOME PAGE Please Go To /login page Thankyou ')
    
